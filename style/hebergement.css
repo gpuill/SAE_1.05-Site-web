@@ -1,0 +1,84 @@
+header+div {
+    background-color: #538CE1;
+    text-align: center;
+    padding: 0.6em;
+}
+
+h2 {
+    font-family: "Aileron_bold", sans-serif;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: "Aileron_regular", sans-serif;
+    font-size: 1.7em;
+}
+
+li {
+    font-family: "Aileron_regular", sans-serif;
+}
+
+p {
+    font-family: "Aileron_regular", sans-serif;
+    font-size: 1.3em;
+}
+
+section {
+    padding: 0.5em;
+    display: inline-flex;
+    background-color: white;
+}
+
+article {
+    padding: 0px 1em;
+    width: 60%;
+}
+
+article+article {
+    padding-top: 90px;
+    width: 40%
+}
+
+#bungalow img {
+    width: 100%;
+}
+
+#reservations {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#boutons_reservations {
+    display: flex;
+    flex-flow: column nowrap;
+    color: white;
+    background-color: #538CE1;
+    align-items: center;
+    width: 60%;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 0% 5%;
+}
+
+#boutons_reservations p {
+    margin: 0px;
+    font-size: 90%;
+}
+
+#boutons_reservations em {
+    margin: 0px;
+    font-size: 80%;
+}
+
+#description {
+    border: 2px solid rgb(179, 179, 179);
+}
+
+#description p {
+    padding: 0px 2%;
+    margin: 0px;
+}

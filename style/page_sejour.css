@@ -1,0 +1,146 @@
+
+header+div{
+    background-color: #538CE1;
+    text-align: center;
+    padding: 0.6em;
+}
+h2{
+    font-family: "Aileron_bold", sans-serif;
+    font-size: 2em;
+    color: white;
+}
+h3{
+    font-family: "Aileron_regular", sans-serif;
+    font-size: 1.7em;
+}
+li{
+    font-family: "Aileron_regular", sans-serif;
+}
+
+p{
+    font-family: "Aileron_regular", sans-serif;
+    font-size: 1.3em;
+}
+span, h3{
+    text-decoration: underline;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1em;
+    padding: 1.5em;
+}
+
+section+section{
+    flex-direction: row;
+}
+
+section+section+section{
+    flex-direction: row;
+}
+
+section img{
+    width: 60%;
+    text-align: center;
+    margin: 2em;
+    flex-shrink: 0;
+}
+
+section article{
+    width: 22em;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+table, th, td {
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+
+th {
+    background-color: #0F61DB;
+    color: white;
+    font-size: 2em;
+}
+td {
+    background-color: #D9D9D9;
+    font-size: 1.7em;
+}
+
+
+main>div>section>ul{
+    font-size: 1.7em;
+    width: 640px;
+    height: 779px;
+}
+
+main>div>section{
+    display: flex;
+    flex-direction: column;
+}
+
+main>div>section>figure{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: left;
+}
+main>div>section>figure>img{
+    height: 55px;
+    width: 67px;
+}
+
+.option{
+    position: relative;
+    text-align: left;   
+}
+.deroulant{
+    display: none;
+    margin-top: -300px;
+    width: 607px;
+    height: 195px;
+    background-color: #538CE1;
+    border-radius: 5px;
+    padding-top: 16px;
+}
+.listonglet{
+    display: flex;
+    justify-content: center;
+    color: white;
+    justify-content: space-around;
+}
+.onglet{
+    font-size: 2em;
+    width: 607px;
+    height: 85px;
+    background-color: #538CE1;
+    text-align: center;
+    list-style: none;
+    
+}
+
+.option2{
+    position: relative;
+    text-align: left;
+    
+}
+.deroulant2{
+    display: none;
+    margin-top: -255px;
+    width: 607px;
+    height: 150px;
+    background-color: #538CE1;
+    border-radius: 5px;
+    padding-top: 16px;
+}
+.listoption{
+    font-size: 1.3em;
+}
