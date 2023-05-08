@@ -14,4 +14,4 @@ We realised :
 
 ## As for me 
 
-I realised the hebergement.html 
+I realised the hebergement page, HTML and CSS
